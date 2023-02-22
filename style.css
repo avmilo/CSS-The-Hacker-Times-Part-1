@@ -7,9 +7,10 @@ body {
     background: #fff;
     width: 700px;
     border-radius: 15px;
+    border-color: #eee;
     margin: 2.2rem auto;
     padding: 1rem;
-    box-shadow: 0 0 5px #c3c3c3;
+    box-shadow: 0 0 5px #ddd;
 }
 header {
     text-align: center;
@@ -22,6 +23,10 @@ nav li{
     display: inline-block;
     padding: .5rem;
     color: #777;
+    border-radius: 5px;
+    border-color: #eee;
+    margin: .25rem auto;
+    padding: .5rem;
 }
 a {
     text-decoration: none;
@@ -31,14 +36,20 @@ h4 {
     font-weight: 900;
 }
 .more-articles {
-     font: 'Roboto Slab', sans-serif;
-  display: inline-block;
+    font: 'Roboto Slab', sans-serif;
+    display: inline-block;
+    width: 700px;
     padding: 2rem;
-    
+    border-radius: 15px;
+    border-color: #eee;
+    margin: 2.2rem auto;
 }
 h5 {
     color: #e61717;
 }
 p { 
-    color: #777171;
+    box-align: center; 
+}
+.date {
+    font-family: 'Abril-Fatface', sans-serif;
 }
