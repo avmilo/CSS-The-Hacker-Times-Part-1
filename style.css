@@ -13,6 +13,8 @@ body {
 }
 header {
     text-align: center;
+    font: Abril Fatface;
+
 }
 ul {
     list-style-type: none;
@@ -20,4 +22,9 @@ ul {
 nav li{
     display: inline-block;
     padding: .5rem;
+}
+.more-articles, h4 {
+    font: Roboto Slab;
+
+
 }
